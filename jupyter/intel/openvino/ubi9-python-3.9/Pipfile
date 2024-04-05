@@ -12,6 +12,7 @@ name = "torch-cpu"
 # OpenVINO packages
 nncf = "==2.9.0"
 optimum-intel = "==1.16.0"
+torch = {version=">=2.1.2", index="torch-cpu"}
 
 # LLM Packages
 datasets = {version="*"}
